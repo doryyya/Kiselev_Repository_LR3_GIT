@@ -3,6 +3,43 @@
 
 using namespace std;
 
+int check(string str, int minxs = INT_MIN, int maxs = INT_MAX)
+{
+    int x = 0;
+    cout << str;
+
+    while (!(cin >> x) || (cin.peek() != '\n') || (x > maxs) || (x < minxs))
+    {
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cout << str;
+    }
+    return x;
+
+}
+
+double task_1(){
+    int x;
+    cout << "Введите вещественное число x: ";
+    cin >> x;
+    return x;
+}
+
+double task_2(){
+
+}
+
+double task_3(){
+
+}
+
+double task_4(){
+
+}
+
+int task_5(){
+
+}
 
 int main(){
     cout << "Task 1. Ввести вещественное число x" << endl;
