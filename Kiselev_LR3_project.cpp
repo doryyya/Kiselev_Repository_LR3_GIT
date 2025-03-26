@@ -5,13 +5,14 @@ using namespace std;
 
 
 int main(){
-    cout << "Task 1. Ввести вещественное число x";
-    cout << "Task 2. Ввести вещественное число y";
-    cout << "Task 3. Ввести вещественное число z";
-    cout << "Task 4. Найти друбную часть от суммы этих 3-х чисел";
+    cout << "Task 1. Ввести вещественное число x" << endl;
+    cout << "Task 2. Ввести вещественное число y" << endl;
+    cout << "Task 3. Ввести вещественное число z" << endl;
+    cout << "Task 4. Найти друбную часть от суммы этих 3-х чисел" << endl;
     cout << "Task 5. Округлить до ближайшего целого сумму этих 3-х чисел" << endl;
-    cout <<
+    cout << "Please enter the number of the defires function or 0 if you want yo close the app: " << endl;
     int x;
+    cin >> x;
     switch (x){
     case 1:
         break;
